@@ -8,7 +8,7 @@ namespace Assignments
 {
     class ParamArrayOfInt
     {
-        public static int sum(int[] arrr)
+        public static int sum(int[] arrr) 
         {
             int total = 0;
             for (int i = 0; i < arrr.Length; i++)
@@ -22,9 +22,9 @@ namespace Assignments
 
         public static void Main()
         {
-            int[] arr = new int[5] { 5, 9, 7, 2, 3 };
+            int[] arr = new int[5] { 5, 9, 7, 2, 3 }; //Integer array Declarations
 
-            Console.WriteLine(sum(arr));
+            Console.WriteLine(sum(arr)); //Passing Array Of Integers to Method and Printiong
             Console.ReadLine();
 
         }
