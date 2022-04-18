@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignments
 {
-   public enum BookType
+   public enum BookType  //enum declaration
     {
         Magazine,
         Novel,
@@ -19,10 +19,13 @@ namespace Assignments
 
         public static void Book()
         {
+           
+           //fields declaration
             int BookId;
             String Title;
             double Price;
             
+           //reading inputs from the User
 
             Console.WriteLine("Enter The BookId:");
             BookId = int.Parse(Console.ReadLine());
